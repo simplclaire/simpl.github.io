@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{;
+	background: url(img/fingerheart.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Poppins', sans-serif;
+	transition: .4s;
+}
+.navbar ul li a.hme{
+	background: gray;
+	border-radius: 25px;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.navbar ul li a.hme:hover{
+	background: #ffe4e1;
+	color: gray;
+	
+}
+.navbar ul li a.abt{
+	background: gray;
+	border-radius: 25px;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.navbar ul li a.abt:hover{
+	background: #ffe4e1;
+	color: gray;
+}
+.navbar ul li a.srvs{
+	background: gray;
+	border-radius: 25px;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.navbar ul li a.srvs:hover{
+	background: #ffe4e1;
+	color: gray;
+}
+.navbar ul li a.cntct{
+	background: gray;
+	border-radius: 25px;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.navbar ul li a.cntct:hover{
+	background: #ffe4e1;
+	color: gray;
+}
+.navbar ul li a.fdbck{
+	background: gray;
+	border-radius: 25px;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.navbar ul li a.fdbck:hover{
+	background: #ffe4e1;
+	color: gray;
+}
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: black;
+	font-size: 90px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+
+}
+.center h2{
+	color: black;
+	font-size: 70px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+.center .buttons{
+	margin-left: 150px;
+}
+.buttons button{
+	height: 90px;
+	width: 150px;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	background: #add8e6;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .5s;
+}
+.buttons .btn{
+	margin-left: 280px;
+}
+.buttons button:hover{
+	background: #f08080;
+}
+.buttons .button a{
+	text-decoration: none;
+	color: black;
+}
+.buttons .btn a{
+	text-decoration: none;
+	color: black;
+}
+.oppa{
+	background-color: #f5deb3;
+	color: #f08080;
+	border: 2px;
+	text-align: center;
+}
+#koryan{
+	background-color: powderblue;
+	color: gray;
+	padding: 6px 13px;
+}
+.oppas{
+	border-radius: 25px;
+	border: 1px solid white;
+ 	width: 165px;
+ 	background-color: #f5f5f5;
+ 	color: gray;
+ 	list-style-type: none;
+ 	margin: 4px;
+ 	padding: 6px 13px;
+ 	text-align: center;
+ 	cursor: pointer; 
+ 	margin-left: 20px;
+}
+.oppas:hover{
+	background-color: powderblue;
+	color: black;
+}
+.oppas a{
+	text-decoration: none;
+	outline: none;
+	color: gray;
+}
+.oppas a:hover{
+	text-decoration: none;
+	outline: none;
+	background-color: powderblue;
+	color: black;
+}
+.myoppa{
+	text-align: center;
+	background-color: powderblue;
+}
+.myoppa h2{
+	background-color: gray;
+	color: white;
+	padding: 15px 15px;
+}
+#korean{
+	background-color: black;
+	color: powderblue;
+	padding: 20px 20px;
+}
+#koreana{
+	background-color: black;
+	color: pink;
+	padding: 20px 20px;
+}
+.unnie{
+	background-color: pink;
+	border: 2px;
+	text-align: center;
+}
+#koryana{
+	background-color: #ffe4e1;
+	color: gray;
+	padding: 6px 13px;
+}
+.unnies{
+	border-radius: 25px;
+	border: 1px solid white;
+ 	width: 165px;
+ 	background-color: #f5f5f5;
+ 	color: gray;
+ 	list-style-type: none;
+ 	margin: 4px;
+ 	padding: 6px 13px;
+ 	text-align: center;
+ 	cursor: pointer; 
+ 	margin-left: 20px;
+}
+.unnies:hover{
+	background-color: #ffe4e1;
+	color: black;
+}
+.unnies a{
+	text-decoration: none;
+	outline: none;
+	color: gray;
+}
+.unnies a:hover{
+	text-decoration: none;
+	outline: none;
+	background-color: powderblue;
+	color: black;
+}
+.myunnie{
+	text-align: center;
+	background-color: pink;
+}
+.myunnie h2{
+	background-color: gray;
+	color: white;
+	padding: 15px 15px;
+}
+.galleryoppa{
+	text-align: center;
+	padding: 15px 15px;
+	border-radius: 25px;
+	background-color: #fa8072;
+	color: white;
+	border-color: white;
+}
+.galleryoppa:hover{
+	background-color: pink;
+	transition: .5s;
+	border-color: white;
+	color: black;
+}
+.galleryunnie{
+	text-align: center;
+	padding: 15px 15px;
+	border-radius: 25px;
+	background-color: #e0ffff;
+	color: gray;
+	border-color: white;
+}
+.galleryunnie:hover{
+	background-color: #dda0dd;
+	transition: .5s;
+	border-color: white;
+	color: black;
+}
